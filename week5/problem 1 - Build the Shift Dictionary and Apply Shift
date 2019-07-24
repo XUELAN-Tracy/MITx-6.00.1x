@@ -83,6 +83,7 @@ class Message(object):
         
         new_dict = old_dict.copy()
         
+        #translate the old word to new word with shift
         for letter in old_dict:
             if letter in lowerList:
                 letter_number = lowerList.index(letter)
